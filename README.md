@@ -9,12 +9,6 @@ This is a website that displays random user data obtained from the Randomuser.me
 - Axios
 - Randomuser.me API
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/random-user-display-website.git`
-2. Navigate to the project directory: `cd random-user-display-website`
-3. Open the `index.html` file in your preferred web browser.
-
 ## Usage
 
 1. Listing the users on UI.
@@ -37,3 +31,8 @@ This website integrates with the Randomuser.me API to fetch random user data. Th
       console.log(err)
     })
   }, [])
+```
+
+## Check out
+   
+   Live - https://random-users-three.vercel.app

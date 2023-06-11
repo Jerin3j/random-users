@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Context, { userContext } from '../../Context/Context';
+import { userContext } from '../../Context/Context';
 
 const IconPost = () => {
   const {userDetails} = useContext(userContext)

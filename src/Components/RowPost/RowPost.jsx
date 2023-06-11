@@ -16,7 +16,7 @@ const RowPost = () => {
   }, [])
   return (
       <div className='PersonRows'>
-      <div className='Rows flex flex-col md:flex-row mx-4 md:mx-48 mt-20 gap-6 md:gap-[19px] flex-wrap'>
+      <div className='Rows flex flex-col md:flex-row ml-3 mr-3 md:mx-48 mt-20 gap-6 md:gap-[19px] flex-wrap'>
        {users.map((user)=>(
          <button onClick={()=>{setUserDetails(user)}} className='Row flex flex-col border gap-2 px-10 py-6 rounded-lg md:w-[24%] bg-white ring ring-transparent focus:ring-fuchsia-600 shadow-lg cursor-pointer'>
           <h1 className='Gender text-gray-600 bg-white capitalize'>{user.gender+" · "+user.nat}</h1>
